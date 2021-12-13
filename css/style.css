@@ -1,0 +1,26 @@
+.home {
+    background-color: grey;
+}
+
+img:hover {
+    transition:transform 1s;
+    transform:scale(1.1);
+}
+
+#github {
+    background-color:lightgray;
+}
+
+.gh_img:hover {
+    display:block;
+
+}
+
+#contact {
+    background-color:silver;
+}
+
+#contact {
+    text-align:center;
+}
+
