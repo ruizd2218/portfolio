@@ -139,23 +139,21 @@
             </div>
         </div>
     </section>
-    <div id="contact">
-        <div class="form-container" ondblclick="closeForm()">
-            <form name="myForm"
-                action="https://formspree.io/f/mqknkbdk"
-                method="POST"
-                >
+    <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+        <div class="form-popup" id="myForm">
+             <form action="https://formspree.io/f/mqknkbdk" method="POST" class="form-container"> <!-- Here we are using a free online service from https://formspree.io/ to send our contact form to an email address of our choosing - note: it will not run unless live on the internet, you have to push it to your online website first -->
                 <h1>Contact</h1>
-                    <input type="name" name="_replyto" placeholder="email..."><br>
-                    <input type="name" name="_call" placeholder="phone number..."><br>
-                    <input type="name" name="_name" placeholder="name..."><br>
-                    <input type="name" name="_message" placeholder="message..."><br>
-                <!-- your other form fields go here -->
-                <div class="form-spacer"></div>
-                <button class="btn-lg btn-outline-light" type="submit">Submit</button>
-            </form>
+                <input type="text" placeholder="enter name..." name="name" required>
+                <input type="text" placeholder="enter phone number..." name="phone">
+                <input type="text" placeholder="enter address..." name="email" required>
+                <input type="text" placeholder="enter message...." name="message"><br>
+      
+                 <button type="submit" class="btn">SUBMIT</button><br>
+                 <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+             </form>
         </div>
-    </div>
+     </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
