@@ -1,20 +1,18 @@
+body {
+    background-color: grey;
+}
+
 .home {
     background-color: grey;
 }
 
-#about img:hover {
-    transition:transform 1s;
-    transform:scale(1.1);
-    overflow:hidden;
-}
-
 p {
-    color:rgb(36, 33, 33);
+    color:rgb(202, 202, 202);
     font-size: 20px;
 }
 
 #github {
-    background-color:lightgray;
+    background-color:gray;
 }
 
 .gh_img:hover {
@@ -133,7 +131,7 @@ footer {
     top: 50%; 
     width: auto; 
     padding: 2vw;
-    color: darkgray; 
+    color: white; 
     font-weight: bold;
     font-size: 1.5vw;
     border-radius: 0 3px 3px 0; 
@@ -149,7 +147,7 @@ footer {
 
 
 .Previous:hover, .Next:hover {
-    background-color: rgba(0, 0, 0, 0.8); 
+    background-color: lightgrey; 
     color: white; 
 }
 

@@ -36,3 +36,7 @@ function openForm() {
 function closeForm() {
     document.getElementById("myForm").style.display = "none";
 }
+
+$(window).load(function() {
+    $(".loader").fadeOut(5000); 
+});

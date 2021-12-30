@@ -14,7 +14,7 @@
 <body>
     <!--NAVBAR-->
     <!--NAVBAR-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-success">
         <a class="navbar-brand" href="">Diego Ruiz</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link navItem1 text-light" href="#about">About<span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link navItem2 text-light" href="#github">Github</a>
-            <a href="#contact" class="nav-item nav-link navItem3 text-light">Contact</a>
+            <a class="nav-item nav-link navItem3 text-light" onclick="openForm()">Contact</a>
         </div>
         </div>
     </nav>
@@ -52,7 +52,7 @@
                             I am a software developer from Vancouver, WA. I love animals,
                             MMA, and of course, computers. I am never afraid to try something new, step out of my comfort zone,
                             and I absolutely love learning new things. <br>
-                            </br>I am a graduate of <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy's</a> Software Developer Bootcamp.
+                            </br>I am a student at <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy's</a> Software Developer Bootcamp.
                             I am experienced in HTML, CSS, JavaScript, SQL, C# and more.<br>
                             </br>I am a full stack developer ready to work with you on your next project, contact me <a href="#contact">here</a>.
                         </p>
@@ -162,6 +162,7 @@
         <footer>
             <p>Diego Ruiz &nbsp;|&nbsp;&copy;2021</p> 
         </footer>
-        <script src="JS/main.js" defer></script>
+        <script src="JS/main.js" async></script>
+        <div class="loader"></div>
     </body>
 </html>
