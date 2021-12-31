@@ -1,14 +1,25 @@
-.home {
-    background-color: grey;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    opacity: 1;
+    transition:.5s opacity;
+    color:white;
+    background-color: darkgrey;
+}
+
+body.fade-out {
+opacity: 0;
+transition: none;
 }
 
 p {
-    color:rgb(202, 202, 202);
     font-size: 20px;
 }
 
 #github {
-    background-color:;
+    background-color: grey;
 }
 
 .gh_img:hover {
@@ -26,20 +37,6 @@ p {
 #github,
 #contact {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-body {
-    opacity: 1;
-    transition:.5s opacity;
-}
-
-body.fade-out {
-    opacity: 0;
-    transition: none;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .navbar-brand {
