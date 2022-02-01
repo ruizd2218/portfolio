@@ -19,7 +19,7 @@ p {
 }
 
 #github {
-    background-color: grey;
+    background-color: #17191b;
 }
 
 .gh_img:hover {
@@ -234,7 +234,7 @@ footer {
 .form-container {
     max-width: 49vw; 
     padding: 1vw; 
-    background-color: white; 
+    background-color: #1b1d29; 
 }
 
 .form-container input{
