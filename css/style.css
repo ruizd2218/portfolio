@@ -6,7 +6,7 @@ body {
     opacity: 1;
     transition:.5s opacity;
     color:white;
-    background-color: darkgrey;
+    background-color: #17191b;
 }
 
 body.fade-out {
