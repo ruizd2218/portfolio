@@ -88,6 +88,10 @@ footer {
     text-align: center;
 }
 
+.Slideshow {
+    background-color: #17191b;
+}
+
 /*slideshow*/
 #Slideshow_Background {
     background: #17191b; 
