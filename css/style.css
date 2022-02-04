@@ -28,25 +28,33 @@ p {
     z-index:-1;
 }
 
-
 .navbar-brand {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 2vw;
+    font-family:'Consolas', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    
+}
+
+/*
+@keyframes blink-caret{
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+
+@-webkit-keyframes blink-caret{
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+*/
+.navbar {
+    background-color: darkred;
 }
 
 #about,
 #github,
 #contact {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.navbar-brand {
-    position: relative;
-    animation-name: navPopDown;
-    animation-duration: 4.5s;
-    -webkit-animation-name: navPopDown;
-    -webkit-animation-duration: 4.5s;
-    
 }
 
 .navItem1 {
@@ -76,11 +84,6 @@ p {
 
 h3 {
     text-decoration: underline;
-}
-
-@keyframes navPopDown {
-    from {top: -100vw;}
-    to {top: 0vw;}
 }
 
 footer {
@@ -207,12 +210,18 @@ footer {
     bottom: 1.75vw;
     right: 1.75vw; 
     width: 25vw; 
-    background-color: white; 
+    background-color: darkred; 
     color: black; 
     border: solid black; 
     cursor: pointer;
     -webkit-animation: movePopup 5s;
     animation: movePopup 5s;
+}
+
+/*nav bar text pops down*/
+@keyframes navPopDown {
+    from {top: -100vw;}
+    to {top: 0vw;}
 }
 
 
@@ -225,6 +234,7 @@ footer {
     from {right: -40vw;} 
     to {right: 1.75vw;}
 }
+
 
 
 .form-popup {
