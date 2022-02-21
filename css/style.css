@@ -51,6 +51,20 @@ p {
     background-color: darkred;
 }
 
+/*
+@keyframes blink-caret{
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+
+@-webkit-keyframes blink-caret{
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}
+
+*/
+
 #about,
 #github,
 #contact {
@@ -82,8 +96,12 @@ p {
     cursor:pointer;
 }
 
-h3 {
-    text-decoration: underline;
+
+/* Style the links inside the navigation bar */
+
+.topnav {
+    position: fixed;
+    text-align: left;
 }
 
 footer {
