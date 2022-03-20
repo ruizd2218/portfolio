@@ -24,7 +24,8 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link navItem1 text-light" href="#about">About<span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link navItem2 text-light" href="#github">Github</a>
-                <a class="nav-item nav-link navItem3 text-light" onclick="openForm()">Contact</a>
+                <a class="nav-item nav-link navItem3 text-light" href="#skills">Skills</a>
+                <a class="nav-item nav-link navItem4 text-light" onclick="openForm()">Contact</a>
         </div>
     </div>
     </nav>
@@ -54,8 +55,8 @@
                             MMA, and of course, computers. I am never afraid to try something new and step out of my comfort zone,
                             and I absolutely love learning new things. <br>
                             </br>I am a student at <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy's</a> Software Developer Bootcamp.
-                            I am experienced in HTML, CSS, JavaScript, SQL, Python and more. I am also experienced with frameworks such as JS React and Django.<br>
-                            </br>I am a full stack developer ready to work with you on your next project, contact me <a href="#contact">here</a>.
+                            I am experienced in HTML, CSS, JavaScript, SQL, Python, C# and more. For specifics, see "Skills" section below.<br>  
+                            </br>Are you interested in working together? Contact me <a href="#contact">here</a>.
                         </p>
                     </div>
                 </div>
@@ -68,56 +69,74 @@
     <!--SLIDESHOW-->
     
     <!--SLIDESHOW-->
-    <div id="Slideshow">
-        <div id="Slideshow_Background"> 
-            <div id="Slideshow_Container">
-                <!--slide 1-->
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="assets/codingPlaceholder.jpeg" alt="Picture of yourself">
-                    <div class="text">I'm available to assist you on your project!</div>
+    <h1>Skills</h1>
+    <section id="skills">
+        <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!--slide 1-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="assets/codingPlaceholder.jpeg" alt="Picture of yourself">
+                        <div class="text">I'm available to assist you on your project!</div>
+                    </div>
+                    <!--slide 2-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="assets/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!--slide 3-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="assets/Python.png" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+                    <!--slide 4-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="assets/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+                    <!--slide 5-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="assets/SQL_and_Database.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                    <!--slide 6-->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="assets/handshake.jpg" alt="Replace with a picture of your choosing"> 
+                        <div class="text"><a href="#" onclick="openForm()" class="white-text contact">Interested in working with me? Contact me now!</a></div> 
+                    </div>
+                    
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <!--slide 2-->
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="assets/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
-                    <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
-                </div>
-                <!--slide 3-->
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="assets/Python.png" alt="Python logo">
-                    <div class="text">the popular programming language Python,</div>
-                </div>
-                <!--slide 4-->
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="assets/C_Sharp_and_Dot_NET.png" alt="C# logo">
-                    <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
-                </div>
-                <!--slide 5-->
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="assets/SQL_and_Database.jpg" alt="SQL logo"> 
-                    <div class="text">back end development, databases and SQL.</div>
-                </div>
-                <!--slide 6-->
-                <div class="mySlides fade">
-                    <img class="Slideshow_Images" src="assets/handshake.jpg" alt="Replace with a picture of your choosing"> 
-                    <div class="text"><a href="#" onclick="openForm()" class="white-text contact">Interested in working with me? Contact me now!</a></div> 
-                </div>
+                <br>
                 
-                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-            
-            <div style="text-align: center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span> 
-                <span class="dot" onclick="currentSlide(4)"></span> 
-                <span class="dot" onclick="currentSlide(5)"></span> 
-                <span class="dot" onclick="currentSlide(6)"></span> 
+                <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    <span class="dot" onclick="currentSlide(5)"></span> 
+                    <span class="dot" onclick="currentSlide(6)"></span> 
+                </div>
             </div>
         </div>
-    </div>
+        <div class="skill-list">
+            <h2>- My skills include -<br></h2>
+            
+            </br><h4>HTML, CSS</h4>
+            <h4>JavaScript, React Framework</h4>
+            <h4>Python, Django Framework</h4>
+            <h4>C# .NET Development</h4>
+            <h4>MVC Design</h4>
+            <h4>SQL</h4>
+            <h4>Visual Studio, SQL Server Management Studio, Azure</h4>
+            <h4>Azure DevOps</h4>
+            <h4>Full Stack Development</h4><br>
+            
+        </div>
+        
 
+    </section>
     <!--GITHUB-->
     
     <!--GITHUB-->
