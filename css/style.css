@@ -372,3 +372,7 @@ button:hover, .form-container .btn:hover {
 .projectSkills {
     text-align: center;
 }
+
+.faceImage {
+    border: white 2px solid;
+}
