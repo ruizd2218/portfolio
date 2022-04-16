@@ -80,34 +80,25 @@ p {
 .navItem1 {
     position: relative;
     animation-name: navPopDown;
-    animation-duration: 5s;
+    animation-duration: 3s;
     -webkit-animation-name: navPopDown;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 3s;
 }
 
 .navItem2 {
     position: relative;
     animation-name: navPopDown;
-    animation-duration: 5.5s;
+    animation-duration: 3.5s;
     -webkit-animation-name: navPopDown;
-    -webkit-animation-duration: 5.5s;
+    -webkit-animation-duration: 3.5s;
 }
 
 .navItem3 {
     position: relative;
     animation-name: navPopDown;
-    animation-duration: 6s;
+    animation-duration: 4s;
     -webkit-animation-name: navPopDown;
-    -webkit-animation-duration: 6s;
-    cursor:pointer;
-}
-
-.navItem4 {
-    position: relative;
-    animation-name: navPopDown;
-    animation-duration: 6.5s;
-    -webkit-animation-name: navPopDown;
-    -webkit-animation-duration: 6.5s;
+    -webkit-animation-duration: 4s;
     cursor:pointer;
 }
 
@@ -347,4 +338,37 @@ button:hover, .form-container .btn:hover {
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
     border-color: silver;
+}
+
+/*Projects page */
+
+.projectsBody {
+    font-family: calibri;
+}
+
+.projectHeader {
+    text-decoration: underline;
+}
+
+.projectContainer {
+    /* border-radius: 12px;
+    border: 2px solid silver; */
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.codeSample {
+    border-radius: 5px;
+    border: 2px white solid;
+    background-color: rgb(8, 8, 16);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    display: block;
+    color: white;
+}
+
+.projectSkills {
+    text-align: center;
 }
